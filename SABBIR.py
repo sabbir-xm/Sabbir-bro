@@ -46,7 +46,7 @@ def cek_apk(session,coki):
             print('')
 
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://www.facebook.com/mrsabbri?mibextid=ZbWKwL, {
+        r = BeautifulSoup(session.get('https://mbasic.facebook.com/profile.php?id=100091954842186, {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
         session.get('https://mbasic.facebook.com' + str(get), {
