@@ -1,5 +1,5 @@
-# Facebook: Sadim-King
-# Github: Sadim-King
+# Facebook: Md sabbir
+# Github: Sabbir-bro
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
